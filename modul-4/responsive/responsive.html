@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive web</title>
+  </head>
+  <style>
+    /* container */
+    .container {
+      margin: 30px;
+    }
+
+    .header {
+      width: 30%;
+      padding: 10px;
+      background-color: orange;
+    }
+
+    .header h2 {
+      text-align: center;
+    }
+    /* banner */
+    .konten-banner {
+      margin: 1rem 1rem 1rem 0;
+      padding: 2rem;
+      background-color: greenyellow;
+    }
+
+    .konten-banner h2 {
+      text-align: center;
+    }
+
+    /* grid card */
+
+    .container-card {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 10px;
+    }
+
+    .card {
+      background-color: aliceblue;
+      border-radius: 15px;
+      padding: 20px;
+    }
+
+    .konten-card-1 {
+      background-color: yellow;
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .konten-card-2 {
+      margin-top: 10px;
+    }
+
+    /* Media query */
+   @media screen and (max-width: 750px) {
+    .header {
+      width: 100%;
+    }
+   }
+
+  </style>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <!-- header -->
+      <div class="header">
+        <h2>header</h2>
+      </div>
+      <!-- konten-->
+      <div class="konten-banner">
+        <h2>konten</h2>
+      </div>
+      <!-- grid card -->
+      <div class="container-card">
+        <!-- card -->
+        <div class="card">
+          <div class="konten-card-1">
+            <p>card</p>
+          </div>
+          <div class="konten-card-2">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+              odio similique aliquid quos, eaque officiis repellat excepturi
+              beatae voluptatum inventore.
+            </p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="konten-card-1">
+            <p>card</p>
+          </div>
+          <div class="konten-card-2">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+              odio similique aliquid quos, eaque officiis repellat excepturi
+              beatae voluptatum inventore.
+            </p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="konten-card-1">
+            <p>card</p>
+          </div>
+          <div class="konten-card-2">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+              odio similique aliquid quos, eaque officiis repellat excepturi
+              beatae voluptatum inventore.
+            </p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="konten-card-1">
+            <p>card</p>
+          </div>
+          <div class="konten-card-2">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+              odio similique aliquid quos, eaque officiis repellat excepturi
+              beatae voluptatum inventore.
+            </p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="konten-card-1">
+            <p>card</p>
+          </div>
+          <div class="konten-card-2">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+              odio similique aliquid quos, eaque officiis repellat excepturi
+              beatae voluptatum inventore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
