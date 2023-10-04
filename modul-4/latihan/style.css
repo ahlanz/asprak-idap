@@ -163,15 +163,6 @@ p {
   flex-wrap: wrap;
 }
 
-.kartu-partner {
-  width: 20%;
-  margin: 0 auto;
-}
-
-.kartu-partner img {
-  width: 150px;
-  border-radius: 50%;
-}
 
 #contact {
   background: #dedede;
@@ -264,5 +255,9 @@ h3 {
     height: 450px;
     border-radius: 15px;
     margin: auto;
+  }
+
+  .footer-section {
+    width: 100%;
   }
 }
