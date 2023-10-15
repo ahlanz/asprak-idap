@@ -1,0 +1,57 @@
+  /* container */
+  .container {
+    margin: 30px;
+  }
+
+  .header {
+    width: 30%;
+    padding: 10px;
+    background-color: orange;
+  }
+
+  .header h2 {
+    text-align: center;
+  }
+  /* banner */
+  .konten-banner {
+    margin: 1rem 1rem 1rem 0;
+    padding: 2rem;
+    background-color: greenyellow;
+  }
+
+  .konten-banner h2 {
+    text-align: center;
+  }
+
+  /* grid card */
+
+  .container-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .card {
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+  .konten-card-1 {
+    background-color: yellow;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .konten-card-2 {
+    margin-top: 10px;
+  }
+
+  /* Media query */
+ @media screen and (max-width: 750px) {
+  .header {
+    width: 100%;
+  }
+ }

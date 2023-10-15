@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div>
+    <h1>Nama : </h1>
+    <h1>Nim : </h1>
+    <h1>Kelas:</h1>
+    <h1 >gambar ini sebagai Background</h1>  
+    </div>
+  <img src="pemandangan.jpeg" alt="Background Image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+  <!-- canvas -->
+  <canvas id="myCanvas" width="500" height="100" style="border:4px solid #000000;">
+</canvas>
+  <h2 style="display: flex; justify-content: center;">Contoh video</h2>
+  <video controls style="position: absolute; top: 200; left: 0; width: 100%; height: 60%; z-index: 1;">
+    <source src="test.mp4" type="video/mp4">
+  </video>
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.font = "30px Arial";
+    ctx.strokeText("Hai aku adalah Canvas", 10, 50);
+    </script>
+</body>
+</html>

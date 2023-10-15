@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    #textLayer {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    #imageLayer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="textLayer">
+    <h1>Selamat datang di Halaman Web Sederhana</h1>
+    <p>Ini adalah teks dengan latar belakang transparan di atas gambar latar belakang.</p>
+  </div>
+  <img id="imageLayer" src="pemandangan.jpeg" alt="Gambar Lapisan" style="width: 100%; height: 100%;">
+</body>
+</html>

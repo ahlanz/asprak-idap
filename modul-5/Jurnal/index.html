@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Template Bootstrap 5</title>
+
+    <!-- Menghubungkan Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Nama kamu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-custom py-5 text-white">
+        <div class="container text-center">
+            <div>
+                <img src="bg-burger.jpeg" alt="Logo" class="rounded-circle mb-4" height="150" width="150">
+            </div>
+            <h1>Selamat Datang di Website Kami</h1>
+            <p>Temukan berbagai produk berkualitas tinggi di sini.</p>
+            <a href="#" class="btn btn-primary">Lihat Produk</a>
+        </div>
+        <div class="container mt-4 text-dark">
+            <div class="costum-row gap-3">
+                <div class="col-lg-4 bg-light p-3 costum-rounded ">
+                    <h2>Produk Berkualitas</h2>
+                    <p>Kami menyediakan produk berkualitas tinggi yang akan memenuhi kebutuhan Anda.</p>
+                </div>
+                <div class="col-lg-4 bg-light p-3 costum-rounded">
+                    <h2>Pengiriman Cepat</h2>
+                    <p>Kami menawarkan pengiriman cepat sehingga Anda bisa segera menikmati produk Anda.</p>
+                </div>
+                <div class="col-lg-4 bg-light p-3 costum-rounded">
+                    <h2>Pelanggan Puas</h2>
+                    <p>Pelanggan kami puas dengan layanan dan produk yang kami tawarkan.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+   
+
+    <!-- Daftar Produk -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Daftar Produk</h2>
+            <div class="row">
+                <!-- Looping untuk menampilkan daftar produk -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Produk 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Produk 1</h5>
+                            <p class="card-text">Deskripsi produk 1.</p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Lanjutkan untuk produk lainnya -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Testimonial Pelanggan</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>"Saya sangat puas dengan produk dari Website Saya. Produk berkualitas tinggi!"</p>
+                            <p class="text-right"><strong>Nama Pelanggan</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Lanjutkan untuk testimonial lainnya -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            <p> Nama kamu.</p>
+            <p> NIM kamu.</p>
+            <p> Kelas kamu.</p>
+            <p>&copy; 2023 copyright All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Menghubungkan Bootstrap JavaScript (Popper.js dan Bootstrap.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

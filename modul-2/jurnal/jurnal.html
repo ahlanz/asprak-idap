@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <h1>Canvas Lingkaran</h1>
+  <canvas id="myCanvas" width="400" height="400" style="border: 1px solid #000;"></canvas>
+  <script>
+    const canvas = document.getElementById('myCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Gambar lingkaran kedua (bulatan)
+    ctx.beginPath();
+    ctx.arc(200, 200, 30, 0, 2 * Math.PI); // Koordinat (x, y), radius, sudut awal, sudut akhir
+    ctx.fillStyle = 'blue';
+    ctx.fill();
+  </script>
+</body>
+</html>
